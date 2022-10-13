@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Task1_DeviceInfo</string>
+    <string name="currentBatteryStatus">Battery Info</string>
+</resources>
