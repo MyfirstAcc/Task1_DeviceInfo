@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), getResources().getString(R.string.currentBatteryStatus) + " = Низкий уровень заряда\nбатареи(" + batteryLevel +
                     " %)!", Toast.LENGTH_SHORT).show();
         } else if (batteryLevel < 5 && batteryLevel >= 0) {
-            Toast.makeText(getApplicationContext(), getResources().getString(R.string.currentBatteryStatus) + " = Критический низкий уровен\nзаряда батареи( " +
+            Toast.makeText(getApplicationContext(), getResources().getString(R.string.currentBatteryStatus) + " = Критический низкий уровень\nзаряда батареи( " +
                     batteryLevel + " %!)", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(getApplicationContext(), getResources().getString(R.string.currentBatteryStatus) + " = Уровень заряда батарии: " +
